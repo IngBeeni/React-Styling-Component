@@ -1,4 +1,7 @@
-@import './styles/utils.scss'; // 다른 scss파일을 불러올 땐 @import 구문을 사용합니다.
+@import 'utils.scss'; /*다른 scss파일을 불러올 땐 @import 구문을 사용합니다.*/
+@import '~include-media/dist/include-media'; // Sass Library include-media import
+@import '~open-color/open-color'; // Sass Library open-color import
+
 .SassComponent {
   display: flex; //
   .box {

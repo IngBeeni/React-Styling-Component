@@ -1,0 +1,21 @@
+/* 자동으로 CSS 클래스 네임을 고유값으로 변경해주는 CSS Module 선언 */
+
+.wrapper {
+  background: black;
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+
+/* CSS Module 을 사용한 클래스 이름을 두개 이상 적용할 때는 inverted 사용 */
+.inverted {
+  color: black;
+  background: white;
+}
+
+/* 글로벌 CSS를 작성 */
+
+:global .something {
+  font-weight: 800;
+  color: aqua;
+}
